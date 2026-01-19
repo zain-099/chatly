@@ -62,7 +62,9 @@
     "papaparse": "^5.4.1",
     "@typebot.io/runtime-session-store": "workspace:*",
     "@typebot.io/config": "workspace:*",
-    "dotenv-cli": "^8.0.0"
+    "dotenv-cli": "^8.0.0",
+    "@prisma/client": "^6.19.0",
+    "prisma": "^6.19.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.51.0",
