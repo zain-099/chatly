@@ -5,7 +5,7 @@ import {
   Plan,
   Prisma,
   WorkspaceRole,
-} from "@prisma/client";
+} from "../generated/client";
 
 const JsonNull = Prisma.JsonNull;
 const DbNull = Prisma.DbNull;
