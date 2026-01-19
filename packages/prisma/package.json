@@ -12,7 +12,8 @@
     "migrate:deploy": "dotenv -e ./.env -e ../../.env -- tsx scripts/migrate-deploy.ts",
     "create-migration-file": "dotenv -e ./.env -e ../../.env -- prisma migrate dev --create-only --schema postgresql/schema.prisma",
     "db:migrate": "pnpm migrate:deploy",
-    "reset": "dotenv -e ./.env -e ../../.env -- prisma migrate reset --schema postgresql/schema.prisma"
+    "reset": "dotenv -e ./.env -e ../../.env -- prisma migrate reset --schema postgresql/schema.prisma",
+    "postinstall": "pnpm db:generate"
   },
   "dependencies": {
     "@prisma/client": "^6.19.0",

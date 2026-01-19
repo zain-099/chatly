@@ -60,7 +60,11 @@ const nextConfig = {
   },
   outputFileTracingRoot: join(__dirname, "../../"),
   outputFileTracingIncludes: {
-    "/api/**/*": ["../../packages/prisma/generated/client/**/*"],
+    "/api/**/*": [
+      "../../packages/prisma/generated/client/**/*",
+      "packages/prisma/generated/client/**/*",
+      "./node_modules/.pnpm/@prisma+client@6.19.2/node_modules/@prisma/client/**/*",
+    ],
   },
   webpack: (config, { isServer }) => {
     if (isServer) {

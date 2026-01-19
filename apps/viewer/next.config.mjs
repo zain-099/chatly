@@ -73,7 +73,10 @@ const nextConfig = {
   output: "standalone",
   outputFileTracingRoot: join(__dirname, "../../"),
   outputFileTracingIncludes: {
-    "/api/**/*": ["../../packages/prisma/generated/client/**/*"],
+    "/api/**/*": [
+      "../../packages/prisma/generated/client/**/*",
+      "packages/prisma/generated/client/**/*",
+    ],
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
