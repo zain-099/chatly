@@ -1,4 +1,5 @@
 {
+  "installCommand": "cd ../.. && pnpm install --production=false",
   "buildCommand": "cd ../.. && turbo run build --filter=viewer...",
   "framework": "nextjs"
 }
