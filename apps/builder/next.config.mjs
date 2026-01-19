@@ -58,6 +58,8 @@ const nextConfig = {
     defaultLocale: "en",
     locales: ["en", "fr", "pt", "pt-BR", "de", "ro", "es", "it", "el"],
   },
+  serverExternalPackages: ["@prisma/client", "prisma", "@typebot.io/prisma"],
+  // outputFileTracingRoot needed for monorepo to trace files correctly
   outputFileTracingRoot: join(__dirname, "../../"),
   outputFileTracingIncludes: {
     "/api/**/*": [

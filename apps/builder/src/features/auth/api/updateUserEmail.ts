@@ -1,6 +1,5 @@
 import { TRPCError } from "@trpc/server";
-import prisma from "@typebot.io/prisma";
-import { PrismaClientKnownRequestError } from "@typebot.io/prisma/enum";
+import prisma, { PrismaClientKnownRequestError } from "@typebot.io/prisma";
 import { z } from "@typebot.io/zod";
 import { authenticatedProcedure } from "@/helpers/server/trpc";
 

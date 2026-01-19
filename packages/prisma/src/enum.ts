@@ -1,4 +1,3 @@
-import * as PrismaNamespace from "../generated/client";
 import {
   ChatProvider,
   CollaborationType,
@@ -7,23 +6,14 @@ import {
   WorkspaceRole,
 } from "../generated/client";
 
-// Safe runtime access to the Prisma object (which exists on server, but not on browser)
-const Prisma = (PrismaNamespace as any).Prisma;
-
-const JsonNull = Prisma?.JsonNull ?? "JsonNull";
-const DbNull = Prisma?.DbNull ?? "DbNull";
-
-// On browser, this falls back to Error. On server, it uses the real class.
-const PrismaClientKnownRequestError =
-  Prisma?.PrismaClientKnownRequestError ?? Error;
+// This file is safe for browser usage (Vite/Rollup) as it only exports Enums.
+// Do not import 'Prisma' namespace here.
 
 export {
   WorkspaceRole,
   Plan,
   CollaborationType,
   GraphNavigation,
-  JsonNull,
-  DbNull,
-  PrismaClientKnownRequestError,
   ChatProvider,
 };
+```

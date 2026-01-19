@@ -1,3 +1,5 @@
+export * from "../generated/client";
+
 import { PrismaClient } from "../generated/client";
 
 declare const global: { prisma: PrismaClient };

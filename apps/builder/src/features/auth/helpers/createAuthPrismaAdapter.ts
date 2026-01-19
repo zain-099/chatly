@@ -7,10 +7,8 @@ import type {
 import { createId } from "@paralleldrive/cuid2";
 import { env } from "@typebot.io/env";
 import { omit } from "@typebot.io/lib/utils";
-import {
-  PrismaClientKnownRequestError,
-  WorkspaceRole,
-} from "@typebot.io/prisma/enum";
+import { PrismaClientKnownRequestError } from "@typebot.io/prisma";
+import { WorkspaceRole } from "@typebot.io/prisma/enum";
 import type { Prisma } from "@typebot.io/prisma/types";
 import type { TelemetryEvent } from "@typebot.io/telemetry/schemas";
 import { trackEvents } from "@typebot.io/telemetry/trackEvents";
