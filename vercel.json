@@ -1,6 +1,6 @@
 {
   "buildCommand": null,
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --production=false",
   "outputDirectory": null,
   "framework": null
 }
