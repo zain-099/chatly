@@ -1,0 +1,33 @@
+../../packages/blocks/fileInput/src/api/deprecated/handleGenerateUploadUrlV1.ts(1,27): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.
+../../packages/blocks/fileInput/src/api/deprecated/handleGenerateUploadUrlV2.ts(1,27): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.
+../../packages/blocks/fileInput/src/api/deprecated/handleGetUploadUrl.ts(1,27): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.
+../../packages/blocks/fileInput/src/api/handleGenerateUploadUrl.ts(1,27): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.
+../../packages/bot-engine/src/blocks/inputs/payment/computePaymentInputRuntimeOptions.ts(63,7): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/bot-engine/src/startSession.ts(58,23): error TS2307: Cannot find module 'next/server' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/context.ts(1,20): error TS2307: Cannot find module '@typebot.io/prisma' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/context.ts(2,29): error TS2307: Cannot find module '@typebot.io/prisma/types' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/middlewares.ts(1,20): error TS2307: Cannot find module '@orpc/openapi' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/middlewares.ts(2,41): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/middlewares.ts(3,25): error TS2307: Cannot find module '@sentry/nextjs' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/middlewares.ts(8,49): error TS7031: Binding element 'next' implicitly has an 'any' type.
+../../packages/config/src/orpc/viewer/middlewares.ts(21,6): error TS18046: 'error' is of type 'unknown'.
+../../packages/config/src/orpc/viewer/middlewares.ts(29,26): error TS7031: Binding element 'next' implicitly has an 'any' type.
+../../packages/config/src/orpc/viewer/middlewares.ts(29,32): error TS7031: Binding element 'context' implicitly has an 'any' type.
+../../packages/config/src/orpc/viewer/middlewares.ts(49,12): error TS7031: Binding element 'next' implicitly has an 'any' type.
+../../packages/config/src/orpc/viewer/middlewares.ts(49,18): error TS7031: Binding element 'context' implicitly has an 'any' type.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(1,38): error TS2307: Cannot find module '@typebot.io/blocks-integrations/openai/constants' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(5,8): error TS2307: Cannot find module '@typebot.io/blocks-integrations/openai/schema' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(6,35): error TS2307: Cannot find module '@typebot.io/chat-session/schemas' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(7,27): error TS2307: Cannot find module '@typebot.io/credentials/decryptV2' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(8,32): error TS2307: Cannot find module '@typebot.io/credentials/getCredentials' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(9,28): error TS2307: Cannot find module '@typebot.io/lib/utils' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(10,35): error TS2307: Cannot find module '@typebot.io/runtime-session-store' or its corresponding type declarations.
+../../packages/deprecated/legacy/src/getOpenAIChatCompletionStream.ts(11,37): error TS2307: Cannot find module '@typebot.io/variables/parseVariableNumber' or its corresponding type declarations.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(12,57): error TS2307: Cannot find module 'ai' or its corresponding type declarations.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(82,20): error TS7006: Parameter 'text' implicitly has an 'any' type.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(85,21): error TS7006: Parameter 'error' implicitly has an 'any' type.
+../../packages/lib/src/s3/uploadFileToBucket.ts(21,76): error TS2345: Argument of type '{ "Content-Type": string; "Cache-Control": string; }' is not assignable to parameter of type 'number'.
+../../packages/results/src/schemas/results.ts(5,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/whatsapp/src/api/handlePreviewWebhookRequest.ts(5,23): error TS2307: Cannot find module 'next/server' or its corresponding type declarations.
+../../packages/whatsapp/src/api/handleProductionWebhookRequest.ts(3,23): error TS2307: Cannot find module 'next/server' or its corresponding type declarations.
+../../packages/whatsapp/src/api/handleWebhookSubscriptionRequest.ts(1,27): error TS2307: Cannot find module '@orpc/server' or its corresponding type declarations.

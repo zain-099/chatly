@@ -1,0 +1,40 @@
+
+> builder@ build D:\Work\chatly\typebot.io-main\apps\builder
+> dotenv -e ./.env -e ../../.env -- next build
+
+ ⚠ You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to 'D:\Work\chatly\typebot.io-main\apps\builder/public/__ENV.js'.
+ ⚠ i18n configuration in next.config.mjs is unsupported in App Router.
+Learn more about internationalization in App Router: https://nextjs.org/docs/app/building-your-application/routing/internationalization
+   ▲ Next.js 15.5.9
+
+   Creating an optimized production build ...
+Failed to compile.
+
+../../node_modules/.pnpm/isolated-vm@5.0.4/node_modules/isolated-vm/isolated-vm.js
+Module not found: Can't resolve './out/isolated_vm'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+../../packages/runtime-session-store/src/index.ts
+./src/features/results/api/getResultTranscript.ts
+./src/features/results/api/router.ts
+./src/helpers/server/routers/publicRouter.ts
+./src/pages/api/[...trpc].ts
+
+../../node_modules/.pnpm/isolated-vm@5.0.4/node_modules/isolated-vm/isolated-vm.js
+Module not found: Can't resolve './out/isolated_vm'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+../../packages/runtime-session-store/src/index.ts
+../../packages/whatsapp/src/resumeWhatsAppFlow.ts
+../../packages/whatsapp/src/api/handlePreviewWebhookRequest.ts
+./src/app/api/v1/whatsapp/preview/webhook/route.ts
+
+
+> Build failed because of webpack errors
+ ELIFECYCLE  Command failed with exit code 1.

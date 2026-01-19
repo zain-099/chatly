@@ -1,0 +1,94 @@
+
+> builder@ build D:\Work\chatly\typebot.io-main\apps\builder
+> dotenv -e ./.env -e ../../.env -- next build
+
+ ⚠ You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to 'D:\Work\chatly\typebot.io-main\apps\builder/public/__ENV.js'.
+ ⚠ i18n configuration in next.config.mjs is unsupported in App Router.
+Learn more about internationalization in App Router: https://nextjs.org/docs/app/building-your-application/routing/internationalization
+   ▲ Next.js 15.5.9
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 21.4s
+
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/instrumentation.js
+Module not found: Can't resolve '@opentelemetry/winston-transport' in 'D:\Work\chatly\typebot.io-main\node_modules\.pnpm\@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0\node_modules\@opentelemetry\instrumentation-winston\build\src'
+
+Import trace for requested module:
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/instrumentation.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/index.js
+../../node_modules/.pnpm/@opentelemetry+auto-instrumentations-node@0.67.3_@opentelemetry+api@1.9.0_@opentelemetry+core_r2hetsmrn2gi4euoiwnyrjz5yy/node_modules/@opentelemetry/auto-instrumentations-node/build/src/utils.js
+../../node_modules/.pnpm/@opentelemetry+auto-instrumentations-node@0.67.3_@opentelemetry+api@1.9.0_@opentelemetry+core_r2hetsmrn2gi4euoiwnyrjz5yy/node_modules/@opentelemetry/auto-instrumentations-node/build/src/index.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/util.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/middleware.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/experimental.js
+../../node_modules/.pnpm/@inngest+realtime@0.4.5_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3_gxoru57wbtedr2wyrlbggzlj3y/node_modules/@inngest/realtime/middleware.mjs
+../../packages/inngest/src/client.ts
+./src/features/results/api/triggerCancelExport.ts
+./src/features/results/api/router.ts
+./src/helpers/server/routers/publicRouter.ts
+./src/pages/api/[...trpc].ts
+
+../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.208.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/node/instrumentation.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.208.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/node/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.208.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.208.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/index.js
+../../node_modules/.pnpm/@sentry+node@10.33.0/node_modules/@sentry/node/build/cjs/integrations/tracing/postgresjs.js
+../../node_modules/.pnpm/@sentry+node@10.33.0/node_modules/@sentry/node/build/cjs/index.js
+../../node_modules/.pnpm/@sentry+nextjs@10.33.0_@opentelemetry+context-async-hooks@2.3.0_@opentelemetry+api@1.9.0__@op_dq7qb63ojyrwr5wnr7xpxe4ngq/node_modules/@sentry/nextjs/build/cjs/index.server.js
+
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/instrumentation.js
+Module not found: Can't resolve '@opentelemetry/winston-transport' in 'D:\Work\chatly\typebot.io-main\node_modules\.pnpm\@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0\node_modules\@opentelemetry\instrumentation-winston\build\src'
+
+Import trace for requested module:
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/instrumentation.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation-winston@0.53.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation-winston/build/src/index.js
+../../node_modules/.pnpm/@opentelemetry+auto-instrumentations-node@0.67.3_@opentelemetry+api@1.9.0_@opentelemetry+core_r2hetsmrn2gi4euoiwnyrjz5yy/node_modules/@opentelemetry/auto-instrumentations-node/build/src/utils.js
+../../node_modules/.pnpm/@opentelemetry+auto-instrumentations-node@0.67.3_@opentelemetry+api@1.9.0_@opentelemetry+core_r2hetsmrn2gi4euoiwnyrjz5yy/node_modules/@opentelemetry/auto-instrumentations-node/build/src/index.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/util.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/middleware.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/experimental.js
+../../node_modules/.pnpm/@inngest+realtime@0.4.5_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3_gxoru57wbtedr2wyrlbggzlj3y/node_modules/@inngest/realtime/middleware.mjs
+../../packages/inngest/src/client.ts
+../../packages/inngest/src/serve.ts
+./src/app/api/inngest/route.ts
+
+../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.209.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.209.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.209.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.209.0_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/util.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/components/execution/otel/middleware.js
+../../node_modules/.pnpm/inngest@3.49.1_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3@1.15.4_k_4uokqzgwngterja3z3wbcqxeaq/node_modules/inngest/experimental.js
+../../node_modules/.pnpm/@inngest+realtime@0.4.5_@opentelemetry+core@2.3.0_@opentelemetry+api@1.9.0__express@4.22.1_h3_gxoru57wbtedr2wyrlbggzlj3y/node_modules/@inngest/realtime/middleware.mjs
+../../packages/inngest/src/client.ts
+./src/features/results/api/triggerCancelExport.ts
+./src/features/results/api/router.ts
+./src/helpers/server/routers/publicRouter.ts
+./src/pages/api/[...trpc].ts
+
+   Skipping linting
+   Checking validity of types ...
+Failed to compile.
+
+./src/components/inputs/BasicSelect.tsx:1:48
+Type error: Cannot find module '@base-ui-components/react/select' or its corresponding type declarations.
+
+> 1 | import type { Select as PrimitiveSelect } from "@base-ui-components/react/select";
+    |                                                ^
+  2 | import { Badge } from "@typebot.io/ui/components/Badge";
+  3 | import { Select, type TriggerProps } from "@typebot.io/ui/components/Select";
+  4 | import type { Variable } from "@typebot.io/variables/schemas";
+Next.js build worker exited with code: 1 and signal: null
+ ELIFECYCLE  Command failed with exit code 1.

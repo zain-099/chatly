@@ -1,0 +1,264 @@
+src/features/blocks/logic/condition/components/ConditionItemNode.tsx(39,18): error TS7006: Parameter 'props' implicitly has an 'any' type.
+src/features/blocks/logic/script/components/ScriptSettings.tsx(57,9): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/blocks/logic/setVariable/components/SetVariableSettings.tsx(256,17): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/events/components/EventFocusToolbar.tsx(68,21): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/events/components/EventNode.tsx(140,22): error TS7006: Parameter 'props' implicitly has an 'any' type.
+src/features/folders/components/FolderButton.tsx(91,23): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/folders/components/FolderButton.tsx(101,25): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/folders/components/TypebotButton.tsx(156,27): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/graph/components/edges/Edge.tsx(109,18): error TS7006: Parameter 'props' implicitly has an 'any' type.
+src/features/graph/components/nodes/block/BlockNode.tsx(218,18): error TS7006: Parameter 'props' implicitly has an 'any' type.
+src/features/graph/components/nodes/group/GroupFocusToolbar.tsx(59,21): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/preview/components/ApiPreviewInstructions.tsx(50,15): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/preview/components/ApiPreviewInstructions.tsx(74,15): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/ApiDeployDialog.tsx(44,17): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/ApiDeployDialog.tsx(62,17): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/framer/instructions/FramerBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/gtm/instructions/GtmBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/javascript/instructions/JavascriptBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/javascript/JavascriptBubbleSnippet.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/javascript/JavascriptPopupSnippet.tsx(1,33): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/nextjs/InstallNextjsPackageSnippet.tsx(8,7): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/nextjs/instructions/NextjsBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/nextjs/NextjsBubbleSnippet.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/nextjs/NextjsBubbleSnippet.tsx(31,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/nextjs/NextjsPopupSnippet.tsx(1,33): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/nextjs/NextjsPopupSnippet.tsx(29,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/nextjs/NextjsStandardSnippet.tsx(25,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/react/InstallReactPackageSnippet.tsx(8,7): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/react/instructions/ReactBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/react/ReactBubbleSnippet.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/react/ReactBubbleSnippet.tsx(31,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/react/ReactPopupSnippet.tsx(1,33): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/react/ReactPopupSnippet.tsx(29,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/react/ReactStandardSnippet.tsx(28,38): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/script/instructions/ScriptBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/script/instructions/ScriptBubbleInstructions.tsx(42,52): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/script/instructions/ScriptPopupInstructions.tsx(31,52): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/script/instructions/ScriptStandardInstructions.tsx(45,52): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/shopify/instructions/ShopifyBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/webflow/instructions/WebflowBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/whatsApp/WhatsAppCredentialsDialog.tsx(469,25): error TS7006: Parameter 'val' implicitly has an 'any' type.
+src/features/publish/components/deploy/dialogs/whatsApp/WhatsAppCredentialsDialog.tsx(641,25): error TS7006: Parameter 'val' implicitly has an 'any' type.
+src/features/publish/components/deploy/dialogs/whatsApp/WhatsAppCredentialsDialog.tsx(650,25): error TS7006: Parameter 'val' implicitly has an 'any' type.
+src/features/publish/components/deploy/dialogs/wix/instructions/WixBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/wordpress/instructions/WordpressBubbleInstructions.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/dialogs/wordpress/instructions/WordpressBubbleInstructions.tsx(63,40): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/wordpress/instructions/WordpressPopupInstructions.tsx(53,40): error TS2322: Type '"javascript"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/dialogs/wordpress/instructions/WordpressStandardInstructions.tsx(45,43): error TS2322: Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/features/publish/components/deploy/settings/BubbleSettings/BubbleSettings.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/BubbleSettings/ButtonThemeSettings.tsx(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/BubbleSettings/PreviewMessageSettings.tsx(1,43): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/BubbleSettings/PreviewMessageThemeSettings.tsx(1,42): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/BubbleSettings/ThemeSettings.tsx(6,8): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/PopupSettings.tsx(1,33): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/settings/StandardSettings.tsx(62,35): error TS7006: Parameter 'value' implicitly has an 'any' type.
+src/features/publish/components/deploy/settings/StandardSettings.tsx(82,35): error TS7006: Parameter 'value' implicitly has an 'any' type.
+src/features/publish/components/deploy/snippetParsers/bubble.ts(1,34): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/snippetParsers/popup.ts(1,33): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/snippetParsers/shared.ts(2,31): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/publish/components/deploy/snippetParsers/standard.ts(1,31): error TS2307: Cannot find module '@typebot.io/js' or its corresponding type declarations.
+src/features/results/api/triggerExportJob.ts(1,38): error TS2307: Cannot find module '@inngest/realtime' or its corresponding type declarations.
+src/features/results/components/table/ExportAllResultsDialog.tsx(1,40): error TS2307: Cannot find module '@inngest/realtime/hooks' or its corresponding type declarations.
+src/features/settings/components/MetadataForm.tsx(62,22): error TS7006: Parameter 'props' implicitly has an 'any' type.
+src/features/theme/components/ThemeTemplateCard.tsx(160,25): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/features/user/components/GroupTitlesAutoGenForm.tsx(130,31): error TS7006: Parameter 'value' implicitly has an 'any' type.
+src/features/user/components/UserPreferencesForm.tsx(125,33): error TS7006: Parameter 'isEnabled' implicitly has an 'any' type.
+src/features/workspace/api/deleteWorkspace.ts(55,9): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+src/pages/_app.tsx(81,27): error TS2322: Type '({ defaultValue, lang, minHeight, maxHeight, onChange, withLineNumbers, isReadOnly, debounceTimeout, placeholder, withVariableButton, className, ...props }: Props) => JSX.Element' is not assignable to type '({ isReadOnly, value, lang, }: { isReadOnly: boolean; value: string; lang: "json" | "shell"; }) => JSX.Element'.
+  Types of parameters '__0' and '__0' are incompatible.
+    Type '{ isReadOnly: boolean; value: string; lang: "json" | "shell"; }' is not assignable to type 'Props'.
+      Types of property 'lang' are incompatible.
+        Type '"json" | "shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+          Type '"shell"' is not assignable to type '"1" | "2" | "3" | "map" | "4" | "html" | "css" | "json" | "text" | "b" | "p" | "q" | "s" | "5" | "m" | "h" | "d" | "svg" | "6" | "8" | "properties" | "v" | "cc" | "ml" | "go" | "7" | "9" | ... 199 more ... | "z80"'.
+src/pages/api/integrations/email/test-config.ts(4,33): error TS7016: Could not find a declaration file for module 'nodemailer'. 'D:/Work/chatly/typebot.io-main/node_modules/.pnpm/nodemailer@7.0.12/node_modules/nodemailer/lib/nodemailer.js' implicitly has an 'any' type.
+  If the 'nodemailer' package actually exposes this module, consider sending a pull request to amend 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/nodemailer'
+../../packages/billing/src/api/createCheckoutSession.ts(63,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/createCustomCheckoutSession.ts(52,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/getBillingPortalUrl.ts(38,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/getSubscription.ts(43,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/getSubscriptionPreview.ts(54,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/getUsage.ts(64,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/listInvoices.ts(40,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/updateSubscription.ts(59,5): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/billing/src/api/webhookHandler.ts(8,54): error TS2307: Cannot find module 'next' or its corresponding type declarations.
+../../packages/billing/src/api/webhookHandler.ts(16,3): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/bot-engine/src/blocks/inputs/payment/computePaymentInputRuntimeOptions.ts(63,7): error TS2322: Type '"2024-09-30.acacia"' is not assignable to type '"2025-02-24.acacia"'.
+../../packages/bot-engine/src/startSession.ts(58,23): error TS2307: Cannot find module 'next/server' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/context.ts(1,20): error TS2307: Cannot find module '@typebot.io/prisma' or its corresponding type declarations.
+../../packages/config/src/orpc/viewer/context.ts(2,29): error TS2307: Cannot find module '@typebot.io/prisma/types' or its corresponding type declarations.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(12,57): error TS2307: Cannot find module 'ai' or its corresponding type declarations.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(82,20): error TS7006: Parameter 'text' implicitly has an 'any' type.
+../../packages/forge/blocks/openai/src/handlers/askAssistantHandler.ts(85,21): error TS7006: Parameter 'error' implicitly has an 'any' type.
+../../packages/inngest/src/functions/exportResults.ts(3,36): error TS2307: Cannot find module '@typebot.io/lib/s3/uploadFileToBucket' or its corresponding type declarations.
+../../packages/inngest/src/functions/exportResults.ts(4,20): error TS2307: Cannot find module '@typebot.io/prisma' or its corresponding type declarations.
+../../packages/inngest/src/functions/exportResults.ts(7,19): error TS2307: Cannot find module '@typebot.io/zod' or its corresponding type declarations.
+../../packages/lib/src/s3/uploadFileToBucket.ts(21,76): error TS2345: Argument of type '{ "Content-Type": string; "Cache-Control": string; }' is not assignable to parameter of type 'number'.
+../../packages/results/src/convertResultsToTableData.ts(4,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/results/src/schemas/results.ts(5,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/results/src/streamAllResultsToCsv.ts(9,25): error TS2307: Cannot find module 'papaparse' or its corresponding type declarations.
+../../packages/ui/src/components/Alert.tsx(2,29): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Alert.tsx(28,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Alert.tsx(39,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Alert.tsx(49,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Alert.tsx(62,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/AlertDialog.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/AlertDialog.tsx(56,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/AlertDialog.tsx(70,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/AlertDialog.tsx(77,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(77,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(78,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/AlertDialog.tsx(93,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(93,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(93,27): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(93,36): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/AlertDialog.tsx(93,54): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Autocomplete.tsx(2,29): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Autocomplete.tsx(3,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Autocomplete.tsx(11,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Autocomplete.tsx(11,17): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Autocomplete.tsx(11,35): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Button.tsx(59,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(59,17): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(59,26): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(59,32): error TS7031: Binding element 'iconStyle' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(59,43): error TS7031: Binding element 'render' implicitly has an 'any' type.
+../../packages/ui/src/components/Button.tsx(59,63): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Combobox.tsx(2,29): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Combobox.tsx(3,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Combobox.tsx(12,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Combobox.tsx(12,17): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Combobox.tsx(12,35): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/ContextMenu.tsx(12,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(12,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(12,39): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(25,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(25,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(25,27): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(25,36): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(25,54): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(98,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(98,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/ContextMenu.tsx(98,39): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Dialog.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Dialog.tsx(45,12): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Dialog.tsx(52,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Dialog.tsx(66,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Dialog.tsx(71,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Dialog.tsx(78,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Dialog.tsx(78,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Dialog.tsx(79,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Icon.tsx(1,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Icon.tsx(10,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Icon.tsx(10,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Icon.tsx(10,39): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Input.tsx(2,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Input.tsx(34,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Input.tsx(34,17): error TS7031: Binding element 'type' implicitly has an 'any' type.
+../../packages/ui/src/components/Input.tsx(34,23): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Input.tsx(34,41): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Label.tsx(2,29): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Label.tsx(10,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Menu.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Menu.tsx(12,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(12,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(12,39): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(22,45): error TS2339: Property 'displayName' does not exist on type 'MenuTrigger'.
+../../packages/ui/src/components/Menu.tsx(27,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(27,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(27,27): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(27,36): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(27,54): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(37,51): error TS2339: Property 'displayName' does not exist on type 'MenuTrigger'.
+../../packages/ui/src/components/Menu.tsx(95,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(95,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Menu.tsx(95,39): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/MoreInfoTooltip.tsx(12,19): error TS2322: Type '{ children: Element[]; openOnHover: true; delay: number; closeDelay: number; }' is not assignable to type 'IntrinsicAttributes & Omit<Props<unknown>, "open" | "onOpenChange" | "onOpenChangeComplete"> & { isOpen?: boolean | undefined; onOpen?: ((event?: Event | undefined) => void) | undefined; onClose?: ((event?: Event | undefined) => void) | undefined; onCloseComplete?: (() => void) | undefined; }'.
+  Property 'openOnHover' does not exist on type 'IntrinsicAttributes & Omit<Props<unknown>, "open" | "onOpenChange" | "onOpenChangeComplete"> & { isOpen?: boolean | undefined; onOpen?: ((event?: Event | undefined) => void) | undefined; onClose?: ((event?: Event | undefined) => void) | undefined; onCloseComplete?: (() => void) | undefined; }'.
+../../packages/ui/src/components/NumberField.tsx(2,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/NumberField.tsx(63,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/NumberField.tsx(63,17): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/NumberField.tsx(63,35): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Otp.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Otp.tsx(28,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(47,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(58,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(59,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(60,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(62,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(69,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Otp.tsx(71,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Popover.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Popover.tsx(49,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(49,17): error TS7031: Binding element 'render' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(49,25): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(49,47): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(55,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Popover.tsx(60,48): error TS2339: Property 'displayName' does not exist on type 'PopoverTrigger'.
+../../packages/ui/src/components/Popover.tsx(65,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(65,16): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(65,27): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(65,36): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(65,54): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(75,54): error TS2339: Property 'displayName' does not exist on type 'PopoverTrigger'.
+../../packages/ui/src/components/Popover.tsx(88,7): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(89,7): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(96,5): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Popover.tsx(102,11): error TS2322: Type 'string' is not assignable to type 'Side | undefined'.
+../../packages/ui/src/components/Popover.tsx(103,11): error TS2322: Type 'string' is not assignable to type 'Align | undefined'.
+../../packages/ui/src/components/Select.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Select.tsx(36,6): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Select.tsx(36,12): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Select.tsx(36,35): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Switch.tsx(2,29): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Table.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Table.tsx(7,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(7,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(8,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(9,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(13,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(20,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(20,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(21,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(28,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(28,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(29,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(40,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(40,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(41,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(55,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(55,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(56,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(70,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(70,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(71,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(85,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(85,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(86,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Table.tsx(100,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(100,29): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Table.tsx(101,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Textarea.tsx(1,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Textarea.tsx(13,6): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Textarea.tsx(13,35): error TS7031: Binding element 'onValueChange' implicitly has an 'any' type.
+../../packages/ui/src/components/Textarea.tsx(13,62): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Textarea.tsx(14,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Textarea.tsx(23,18): error TS7006: Parameter 'e' implicitly has an 'any' type.
+../../packages/ui/src/components/Toast.tsx(3,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Toast.tsx(168,18): error TS2694: Namespace '"D:/Work/chatly/typebot.io-main/node_modules/.pnpm/@base-ui-components+react@1.0.0-rc.0_@types+react@19.2.8_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@base-ui-components/react/esm/toast/index.parts"' has no exported member 'useToastManager'.
+../../packages/ui/src/components/Toolbar.tsx(2,28): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Toolbar.tsx(8,58): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Toolbar.tsx(37,60): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(2,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/components/Tooltip.tsx(42,12): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+../../packages/ui/src/components/Tooltip.tsx(52,6): error TS7031: Binding element 'children' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(52,16): error TS7031: Binding element 'variant' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(52,25): error TS7031: Binding element 'size' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(52,31): error TS7031: Binding element 'className' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(52,54): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+../../packages/ui/src/components/Tooltip.tsx(62,54): error TS2339: Property 'displayName' does not exist on type 'TooltipTrigger'.
+../../packages/ui/src/hooks/useCopyToClipboard.ts(1,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/ui/src/hooks/useOpenControls.ts(1,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+../../packages/whatsapp/src/api/handlePreviewWebhookRequest.ts(5,23): error TS2307: Cannot find module 'next/server' or its corresponding type declarations.
