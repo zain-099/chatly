@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "description": "Landing Page Trigger",
   "version": "0.0.1",
   "type": "module",
   "private": true,

@@ -1,5 +1,6 @@
 {
   "name": "viewer",
+  "description": "Viewer App Trigger",
   "private": true,
   "engines": {
     "node": "22.x"

@@ -23,8 +23,7 @@ foreach ($line in $lines) {
         $val = $val -replace '^"|"$', ""
         
         Write-Host "Adding $key"
-        # We pipe "y" because vercel env add might ask to overwrite
-        $val | cmd /c "vercel env add $key production --project $projectName"
+        cmd /c "echo $val | vercel env add $key production"
     }
 }
 
