@@ -72,8 +72,6 @@
     "@types/node": "^22.19.0",
     "@types/papaparse": "^5.3.7",
     "@types/react": "^19.2.7",
-    "dotenv": "^16.4.5",
-    "dotenv": "^16.4.5",
     "next-runtime-env": "^1.6.2"
   }
 }

@@ -134,8 +134,6 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@types/tinycolor2": "^1.4.3",
-    "dotenv": "^16.4.5",
-    "dotenv": "^16.4.5",
     "next-runtime-env": "^1.6.2",
     "superjson": "^1.12.4",
     "tailwindcss": "^4.1.16",
