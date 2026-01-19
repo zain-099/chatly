@@ -3,7 +3,7 @@
   "description": "Viewer App Trigger",
   "private": true,
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "dotenv -e ./.env -e ../../.env  -- next dev -p 3001",
