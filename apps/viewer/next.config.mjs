@@ -51,7 +51,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  serverExternalPackages: ["isolated-vm"],
+  serverExternalPackages: ["isolated-vm", "@prisma/client", "prisma"],
   transpilePackages: [
     "@typebot.io/settings",
     "@typebot.io/react",
