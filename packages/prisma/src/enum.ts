@@ -7,10 +7,10 @@ import {
   WorkspaceRole,
 } from "../generated/client";
 
-const JsonNull = Prisma.JsonNull;
-const DbNull = Prisma.DbNull;
+const JsonNull = Prisma?.JsonNull ?? "JsonNull";
+const DbNull = Prisma?.DbNull ?? "DbNull";
 
-const PrismaClientKnownRequestError = Prisma.PrismaClientKnownRequestError;
+const PrismaClientKnownRequestError = Prisma?.PrismaClientKnownRequestError;
 
 export {
   WorkspaceRole,
