@@ -2206,13 +2206,13 @@ importers:
       prisma:
         specifier: ^6.19.0
         version: 6.19.2(magicast@0.3.5)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.1
+        version: 4.21.0
     devDependencies:
       '@typebot.io/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      tsx:
-        specifier: ^4.19.1
-        version: 4.21.0
 
   packages/radar:
     dependencies:
