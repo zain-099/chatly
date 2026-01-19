@@ -61,7 +61,8 @@
     "@typebot.io/webhook-block": "workspace:*",
     "papaparse": "^5.4.1",
     "@typebot.io/runtime-session-store": "workspace:*",
-    "@typebot.io/config": "workspace:*"
+    "@typebot.io/config": "workspace:*",
+    "dotenv-cli": "^8.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.51.0",
@@ -72,7 +73,7 @@
     "@types/papaparse": "^5.3.7",
     "@types/react": "^19.2.7",
     "dotenv": "^16.4.5",
-    "dotenv-cli": "^8.0.0",
+    "dotenv": "^16.4.5",
     "next-runtime-env": "^1.6.2"
   }
 }
