@@ -59,6 +59,9 @@ const nextConfig = {
     locales: ["en", "fr", "pt", "pt-BR", "de", "ro", "es", "it", "el"],
   },
   outputFileTracingRoot: join(__dirname, "../../"),
+  outputFileTracingIncludes: {
+    "/api/**/*": ["../../packages/prisma/generated/client/**/*"],
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       config.externals.push("isolated-vm");

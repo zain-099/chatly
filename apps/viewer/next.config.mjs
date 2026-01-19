@@ -72,6 +72,9 @@ const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
   outputFileTracingRoot: join(__dirname, "../../"),
+  outputFileTracingIncludes: {
+    "/api/**/*": ["../../packages/prisma/generated/client/**/*"],
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       config.externals.push("isolated-vm");
