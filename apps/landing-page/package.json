@@ -41,7 +41,6 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.0.4",
     "@types/node": "^22.19.0",
-    "@types/node": "^22.19.0",
     "mdx-local-link-checker": "^2.1.1",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-pretty-code": "^0.14.0",
