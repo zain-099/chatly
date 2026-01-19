@@ -50,6 +50,7 @@ const nextConfig = {
     "@typebot.io/react",
     "@typebot.io/js",
     "@typebot.io/env",
+    "@typebot.io/prisma",
   ],
   reactStrictMode: true,
   output: "standalone",
