@@ -67,6 +67,7 @@ const nextConfig = {
     "@typebot.io/variables",
     "@typebot.io/workspaces",
     "@typebot.io/zod",
+    "@typebot.io/prisma",
   ],
   reactStrictMode: true,
   output: "standalone",
