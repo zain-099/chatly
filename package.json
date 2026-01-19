@@ -32,10 +32,12 @@
     "check-unused-dependencies": "tsx packages/scripts/src/checkDependencies.ts",
     "restore": "echo 'Cleaning...' && npx rimraf --glob '**/{node_modules,dist,.next,.turbo}'"
   },
+  "dependencies": {
+    "husky": "^9.1.7"
+  },
   "devDependencies": {
     "@biomejs/biome": "^2.3.7",
     "@tolgee/cli": "^2.14.0",
-    "husky": "^9.1.7",
     "sherif": "^1.9.0",
     "turbo": "^2.6.1",
     "typescript": "^5.9.3",
