@@ -1,0 +1,16 @@
+ WARN  Unsupported engine: wanted: {"node":"20.x"} (current: {"node":"v22.14.0","pnpm":"9.15.2"})
+
+> builder@ build D:\Work\chatly\typebot.io-main\apps\builder
+> dotenv -e ./.env -e ../../.env -- next build
+
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to 'D:\Work\chatly\typebot.io-main\apps\builder/public/__ENV.js'.
+ ⚠ i18n configuration in next.config.mjs is unsupported in App Router.
+Learn more about internationalization in App Router: https://nextjs.org/docs/app/building-your-application/routing/internationalization
+   ▲ Next.js 15.5.9
+
+   Creating an optimized production build ...
+
+> Build error occurred
+[Error: The packages specified in the 'transpilePackages' conflict with the 'serverExternalPackages': @typebot.io/prisma]
+ ELIFECYCLE  Command failed with exit code 1.

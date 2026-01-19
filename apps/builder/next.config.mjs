@@ -41,7 +41,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  serverExternalPackages: ["isolated-vm", "@prisma/client", "prisma"],
+
   transpilePackages: [
     // https://github.com/nextauthjs/next-auth/discussions/9385#discussioncomment-12023012
     "next-auth",
@@ -50,7 +50,6 @@ const nextConfig = {
     "@typebot.io/react",
     "@typebot.io/js",
     "@typebot.io/env",
-    "@typebot.io/prisma",
   ],
   reactStrictMode: true,
   output: "standalone",

@@ -1,0 +1,38 @@
+ WARN  Unsupported engine: wanted: {"node":"20.x"} (current: {"node":"v22.14.0","pnpm":"9.15.2"})
+
+> landing-page@0.0.1 build D:\Work\chatly\typebot.io-main\apps\landing-page
+> dotenv -e ./.env -e ../../.env -- vite build
+
+Starting content-collections with config content-collections.ts
+Starting content-collections with config content-collections.ts
+Starting content-collections with config content-collections.ts
+[36mvite v7.0.0 [32mbuilding for production...[36m[39m
+Start initial build
+build started ...
+Generated route tree in 660ms
+... finished build of 1 collection and 79 documents in 664ms
+transforming...
+[32m✓[39m 1311 modules transformed.
+✗ Build failed in 4.08s
+error during build:
+../../packages/prisma/src/enum.ts (5:2): "Plan" is not exported by "../../packages/prisma/generated/client/index-browser.js", imported by "../../packages/prisma/src/enum.ts".
+file: D:/Work/chatly/typebot.io-main/packages/prisma/src/enum.ts:5:2
+
+3:   CollaborationType,
+4:   GraphNavigation,
+5:   Plan,
+     ^
+6:   WorkspaceRole,
+7: } from "../generated/client";
+
+    at getRollupError (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:17022:16)
+    at Module.traceVariable (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:17478:29)
+    at Module.getVariableForExportName (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:17204:35)
+    at getVariableForExportNameRecursive (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:16839:19)
+    at Module.traceVariable (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:17476:44)
+    at ModuleScope.findVariable (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:15141:39)
+    at MemberExpression.bind (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:7406:49)
+    at Property.bind (file:///D:/Work/chatly/typebot.io-main/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:2829:23)
+ ELIFECYCLE  Command failed with exit code 1.
