@@ -19,6 +19,14 @@ export const getTypebotAccessRight = (
     return "write";
 
   if (collaborator) return "read";
-  if (user?.email && env.ADMIN_EMAIL?.includes(user.email)) return "read";
+
+  // Defensive: normalize ADMIN_EMAIL to array
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
+      ? [env.ADMIN_EMAIL]
+      : [];
+  if (user?.email && adminEmails.includes(user.email)) return "read";
+
   return "guest";
 };

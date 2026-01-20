@@ -20,8 +20,14 @@ export const isReadTypebotForbidden = async (
   const isTypebotPublic = settings?.publicShare?.isEnabled === true;
   if (isTypebotPublic) return false;
   if (!user) return true;
-  if ((env.ADMIN_EMAIL ?? []).some((email) => email === user.email))
-    return false;
+
+  // Defensive: normalize ADMIN_EMAIL to array
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
+      ? [env.ADMIN_EMAIL]
+      : [];
+  if (adminEmails.some((email) => email === user.email)) return false;
   return (
     typebot.workspace.isSuspended ||
     typebot.workspace.isPastDue ||

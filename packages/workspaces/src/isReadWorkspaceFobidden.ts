@@ -7,8 +7,15 @@ export const isReadWorkspaceFobidden = (
   },
   user: Pick<Prisma.User, "email" | "id">,
 ) => {
+  // Defensive: normalize ADMIN_EMAIL to array
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
+      ? [env.ADMIN_EMAIL]
+      : [];
+
   if (
-    env.ADMIN_EMAIL?.some((email) => email === user.email) ||
+    adminEmails.some((email) => email === user.email) ||
     workspace.members.find((member) => member.userId === user.id)
   )
     return false;

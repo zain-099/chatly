@@ -87,11 +87,20 @@ export const deleteTypebot = authenticatedProcedure
       where: { id: typebotId },
       data: { isArchived: true, publicId: null, customDomain: null },
     });
-    if (env.S3_BUCKET)
-      await removeObjectsFromTypebot({
-        workspaceId: existingTypebot.workspace.id,
-        typebotId,
-      });
+
+    // Attempt to remove S3 objects, but don't fail if storage is not configured
+    if (env.S3_BUCKET) {
+      try {
+        await removeObjectsFromTypebot({
+          workspaceId: existingTypebot.workspace.id,
+          typebotId,
+        });
+      } catch (err) {
+        // Log but don't fail - the typebot is already archived
+        console.error("[deleteTypebot] Failed to remove S3 objects:", err);
+      }
+    }
+
     return {
       message: "success",
     };
