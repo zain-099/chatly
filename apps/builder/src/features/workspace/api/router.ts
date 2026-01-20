@@ -8,7 +8,11 @@ import { updateWorkspace } from "./updateWorkspace";
 
 export const workspaceRouter = router({
   listWorkspaces,
-  getWorkspace,
+  getWorkspace: (() => {
+    if (!getWorkspace)
+      console.error("CRITICAL: getWorkspace is undefined in workspaceRouter");
+    return getWorkspace;
+  })(),
   listMembersInWorkspace,
   createWorkspace,
   updateWorkspace,
