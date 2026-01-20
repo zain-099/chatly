@@ -1,12 +1,18 @@
 import type { ContinueChatResponse } from "@typebot.io/chat-api/schemas";
 import { env } from "@typebot.io/env";
-import { Standard } from "@typebot.io/react";
 import { defaultBackgroundColor } from "@typebot.io/theme/constants";
+import dynamic from "next/dynamic";
 import { useEditor } from "@/features/editor/providers/EditorProvider";
 import { useTypebot } from "@/features/editor/providers/TypebotProvider";
 import { useGraph } from "@/features/graph/providers/GraphProvider";
 import { useUser } from "@/features/user/hooks/useUser";
 import { toast } from "@/lib/toast";
+
+// Dynamic import with SSR disabled to avoid hydration issues with Solid.js web components
+const Standard = dynamic(
+  () => import("@typebot.io/react").then((mod) => mod.Standard),
+  { ssr: false },
+);
 
 export const WebPreview = () => {
   const { user } = useUser();
