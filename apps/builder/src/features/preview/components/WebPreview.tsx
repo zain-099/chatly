@@ -1,4 +1,5 @@
 import type { ContinueChatResponse } from "@typebot.io/chat-api/schemas";
+import { env } from "@typebot.io/env";
 import { Standard } from "@typebot.io/react";
 import { defaultBackgroundColor } from "@typebot.io/theme/constants";
 import { useEditor } from "@/features/editor/providers/EditorProvider";
@@ -31,6 +32,7 @@ export const WebPreview = () => {
     <Standard
       key={`web-preview-${startPreviewFrom?.id ?? ""}`}
       typebot={typebot}
+      apiHost={env.NEXT_PUBLIC_VIEWER_URL[0]}
       sessionId={user ? `${typebot.id}-${user.id}` : undefined}
       startFrom={
         startPreviewFrom?.type === "group"
