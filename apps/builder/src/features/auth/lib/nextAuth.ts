@@ -125,13 +125,17 @@ export const {
         );
         if (!emailValid) throw new Error("email-not-legit");
       }
+      const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+        ? env.ADMIN_EMAIL
+        : typeof env.ADMIN_EMAIL === "string"
+          ? [env.ADMIN_EMAIL]
+          : [];
       if (
         env.DISABLE_SIGNUP &&
         isNewUser &&
         user.email &&
-        !env.ADMIN_EMAIL?.includes(user.email)
+        !adminEmails.includes(user.email)
       ) {
-        console.log("[signIn] DISABLE_SIGNUP is true, checking invitations");
         const { invitations, workspaceInvitations } =
           await getNewUserInvitations(prisma, user.email);
         console.log(

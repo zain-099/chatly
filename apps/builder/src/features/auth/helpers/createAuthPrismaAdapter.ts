@@ -28,9 +28,14 @@ export const createAuthPrismaAdapter = (p: Prisma.PrismaClient): Adapter => ({
       p,
       user.email,
     );
+    const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+      ? env.ADMIN_EMAIL
+      : typeof env.ADMIN_EMAIL === "string"
+        ? [env.ADMIN_EMAIL]
+        : [];
     if (
       env.DISABLE_SIGNUP &&
-      env.ADMIN_EMAIL?.every((email) => email !== user.email) &&
+      adminEmails.every((email) => email !== user.email) &&
       invitations.length === 0 &&
       workspaceInvitations.length === 0
     )

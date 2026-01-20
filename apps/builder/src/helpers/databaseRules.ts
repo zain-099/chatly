@@ -34,16 +34,23 @@ export const canWriteTypebots = (
 export const canReadTypebots = (
   typebotIds: string | string[],
   user: Pick<Prisma.User, "email" | "id">,
-) => ({
-  id: typeof typebotIds === "string" ? typebotIds : { in: typebotIds },
-  workspace: env.ADMIN_EMAIL?.some((email) => email === user.email)
-    ? undefined
-    : {
-        members: {
-          some: { userId: user.id },
+) => {
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
+      ? [env.ADMIN_EMAIL]
+      : [];
+  return {
+    id: typeof typebotIds === "string" ? typebotIds : { in: typebotIds },
+    workspace: adminEmails.some((email) => email === user.email)
+      ? undefined
+      : {
+          members: {
+            some: { userId: user.id },
+          },
         },
-      },
-});
+  };
+};
 
 export const canEditGuests = (user: Pick<User, "id">, typebotId: string) => ({
   id: typebotId,

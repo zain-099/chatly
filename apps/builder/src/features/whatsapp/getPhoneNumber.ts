@@ -67,10 +67,15 @@ const getCredentials = async (
       phoneNumberId: input.phoneNumberId,
     };
   if (!input.credentialsId) return;
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
+      ? [env.ADMIN_EMAIL]
+      : [];
   const credentials = await prisma.credentials.findFirst({
     where: {
       id: input.credentialsId,
-      workspace: env.ADMIN_EMAIL?.includes(user.email)
+      workspace: adminEmails.includes(user.email)
         ? undefined
         : { members: { some: { userId: user.id } } },
     },
