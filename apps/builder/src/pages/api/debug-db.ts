@@ -51,6 +51,7 @@ export default async function handler(
       DATABASE_URL_SET: !!process.env.DATABASE_URL,
       // Masking partial key for security if needed, but checking start
       DATABASE_URL_PROTOCOL: process.env.DATABASE_URL?.split(":")[0],
+      PRISMA_QUERY_ENGINE_LIBRARY: process.env.PRISMA_QUERY_ENGINE_LIBRARY,
     },
     fileSystemCheck,
   };

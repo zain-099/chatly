@@ -41,6 +41,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  env: {
+    PRISMA_QUERY_ENGINE_LIBRARY:
+      "/var/task/packages/prisma/generated/client/libquery_engine-rhel-openssl-3.0.x.so.node",
+  },
 
   transpilePackages: [
     // https://github.com/nextauthjs/next-auth/discussions/9385#discussioncomment-12023012
