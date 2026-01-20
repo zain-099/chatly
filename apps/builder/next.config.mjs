@@ -69,7 +69,6 @@ const nextConfig = {
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
-      config.externals.push("isolated-vm");
       // TODO: Remove once https://github.com/getsentry/sentry-javascript/issues/8105 is merged and sentry is upgraded
       config.ignoreWarnings = [
         ...(config.ignoreWarnings ?? []),
