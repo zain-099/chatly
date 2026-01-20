@@ -7,11 +7,9 @@ export const isReadWorkspaceFobidden = (
   },
   user: Pick<Prisma.User, "email" | "id">,
 ) => {
-  if (
-const adminEmails =
-    Array.isArray(env.ADMIN_EMAIL)
-      ? env.ADMIN_EMAIL
-      : typeof env.ADMIN_EMAIL === "string"
+  const adminEmails = Array.isArray(env.ADMIN_EMAIL)
+    ? env.ADMIN_EMAIL
+    : typeof env.ADMIN_EMAIL === "string"
       ? [env.ADMIN_EMAIL]
       : [];
 
