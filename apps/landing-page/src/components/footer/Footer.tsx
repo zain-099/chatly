@@ -24,7 +24,24 @@ export const Footer = () => {
           </div>
         </div>
         <p className="text-foreground/70 text-sm">
-          Made By SoftWar - Abdelrahman Abdelazeiz
+          Made By{" "}
+          <a
+            href="https://softwar.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-foreground transition-colors"
+          >
+            SoftWar
+          </a>{" "}
+          –{" "}
+          <a
+            href="https://www.linkedin.com/in/abdelrahman-abdelazeiz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-foreground transition-colors"
+          >
+            Abdelrahman Z. Abdelazeiz
+          </a>
         </p>
       </div>
     </footer>
