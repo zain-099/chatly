@@ -9,19 +9,21 @@ type Props = {
 };
 
 export const EmojiOrImageIcon = ({ icon, size = "md", defaultIcon }: Props) => {
+  // Defensive: ensure icon is a string to prevent "Cannot convert object to primitive value"
+  const safeIcon = typeof icon === "string" ? icon : null;
   return (
     <>
-      {icon ? (
-        icon.startsWith("http") || isSvgSrc(icon) ? (
+      {safeIcon ? (
+        safeIcon.startsWith("http") || isSvgSrc(safeIcon) ? (
           <img
             className={cx(
               "rounded-[10%]",
               size === "sm" && "size-[18px]",
               size === "md" && "size-[25px]",
               size === "lg" && "size-[36px]",
-              isSvgSrc(icon) ? undefined : "object-cover",
+              isSvgSrc(safeIcon) ? undefined : "object-cover",
             )}
-            src={icon}
+            src={safeIcon}
             alt="typebot icon"
           />
         ) : (
@@ -33,7 +35,7 @@ export const EmojiOrImageIcon = ({ icon, size = "md", defaultIcon }: Props) => {
               size === "lg" && "text-[2.25rem]",
             )}
           >
-            {icon}
+            {safeIcon}
           </span>
         )
       ) : (

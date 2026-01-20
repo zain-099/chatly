@@ -13,11 +13,6 @@ import { publicWhatsAppRouter } from "@/features/whatsapp/router";
 import { workspaceRouter } from "@/features/workspace/api/router";
 import { router } from "../trpc";
 
-console.log("Loading publicRouter...", {
-  workspaceRouterKeys: Object.keys(workspaceRouter || {}),
-  isGetWorkspaceDefined: !!workspaceRouter?.getWorkspace,
-});
-
 export const publicRouter = router({
   getLinkedTypebots,
   analytics: analyticsRouter,
