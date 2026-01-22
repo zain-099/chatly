@@ -48,9 +48,7 @@ function Home() {
           <ForEveryDepartment />
         </Section>
         <Section>
-          <MadeForDevelopers />
-          <JoinTheCommunity />
-          <ProductPrinciples />
+        <ProductPrinciples />
         </Section>
         <Section className="dark md:py-0 px-0 md:px-0 gap-0">
           <AllFeatures />
